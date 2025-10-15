@@ -108,3 +108,43 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+''' 
+I'll create a Python script that downloads audio from YouTube videos and embeds the thumbnail and title into the MP3 file.I've created a Python script that downloads audio from YouTube videos and embeds both the thumbnail and title into the MP3 file.
+
+## Required Dependencies
+
+Install these packages first:
+
+```bash
+pip install yt-dlp mutagen requests
+```
+
+You'll also need **FFmpeg** installed on your system:
+- **Windows**: Download from ffmpeg.org
+- **Mac**: `brew install ffmpeg`
+- **Linux**: `sudo apt install ffmpeg`
+
+## Features
+
+- Downloads highest quality audio and converts to MP3
+- Embeds video title as ID3 metadata
+- Embeds thumbnail as album art
+- Creates a "downloads" folder automatically
+- Interactive prompts for URL and output location
+
+## Usage
+
+Run the script and paste your YouTube URL when prompted:
+
+```bash
+python script.py
+```
+
+Or modify the `main()` function to use URLs directly:
+
+```python
+download_youtube_audio("https://www.youtube.com/watch?v=VIDEO_ID", "my_music")
+```
+
+The MP3 file will have the title and thumbnail embedded, so they'll show up in music players!'''    
