@@ -1,3 +1,4 @@
+# There is a problem with youtube or something i don't know about it; probably from yt blocking access or something else
 import yt_dlp
 from mutagen.mp3 import MP3
 from mutagen.id3 import ID3, TIT2, APIC
